@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gmail.anthony17j.simplefabriccustomskin.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
