@@ -1,7 +1,7 @@
-package com.gmail.anthony17j.simplefabriccustomskin.test;
+package fr.jeanney;
 
-import com.gmail.anthony17j.simplefabriccustomskin.mixin.PlayerAccessor;
-import com.gmail.anthony17j.simplefabriccustomskin.skin.SkinManager;
+import fr.jeanney.mixin.PlayerAccessor;
+import fr.jeanney.skin.SkinManager;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
 import io.netty.channel.embedded.EmbeddedChannel;

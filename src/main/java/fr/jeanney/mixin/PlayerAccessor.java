@@ -1,4 +1,4 @@
-package com.gmail.anthony17j.simplefabriccustomskin.mixin;
+package fr.jeanney.mixin;
 
 import com.mojang.authlib.GameProfile;
 import net.minecraft.world.entity.player.Player;

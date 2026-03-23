@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "fr.jeanney.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"PlayerAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
