@@ -1,23 +1,31 @@
 {
-  "schemaVersion": 1,
-  "id": "simplefabriccustomskin",
-  "version": "${version}",
-  "name": "SimpleFabricCustomSkin",
-  "description": "Simple server skin assignment from local skins folder.",
-  "authors": ["anthony17j"],
-  "environment": "server",
-  "entrypoints": {
-    "main": [
-      "com.gmail.anthony17j.simplefabriccustomskin.SimpleFabricCustomSkin"
-    ]
-  },
-  "mixins": [
-    "simplefabriccustomskin.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=0.18.0",
-    "minecraft": "~1.21.11",
-    "java": ">=21",
-    "fabric-api": "*"
-  }
+	"schemaVersion": 1,
+	"id": "simple-fabric-custom-skin",
+	"version": "${version}",
+	"name": "Simple Fabric Custom Skin",
+	"description": "Simple server skin assignment from local skins folder",
+	"authors": [
+		"Uxzylon"
+	],
+	"contact": {
+		"homepage": "https://anthony.jeanney.fr/",
+		"sources": "https://github.com/Uxzylon/SimpleFabricCustomSkin"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/simple-fabric-custom-skin/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.jeanney.SimpleFabricCustomSkin"
+		]
+	},
+	"mixins": [
+		"simple-fabric-custom-skin.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
 }

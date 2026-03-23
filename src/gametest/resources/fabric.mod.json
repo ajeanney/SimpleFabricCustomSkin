@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "simplefabriccustomskin-gametest",
+  "id": "simple-fabric-custom-skin-gametest",
   "version": "1.0.0",
-  "name": "SimpleFabricCustomSkin GameTest",
+  "name": "Simple Fabric Custom Skin GameTest",
   "environment": "*",
   "entrypoints": {
     "fabric-gametest": [
-      "com.gmail.anthony17j.simplefabriccustomskin.test.SkinCommandGameTest"
+      "fr.jeanney.SkinCommandGameTest"
     ]
   },
   "depends": {
-    "simplefabriccustomskin": "*"
+    "simple-fabric-custom-skin": "*"
   }
 }
