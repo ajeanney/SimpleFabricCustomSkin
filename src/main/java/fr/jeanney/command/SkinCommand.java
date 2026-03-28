@@ -1,6 +1,6 @@
-package com.gmail.anthony17j.simplefabriccustomskin.command;
+package fr.jeanney.command;
 
-import com.gmail.anthony17j.simplefabriccustomskin.skin.SkinManager;
+import fr.jeanney.skin.SkinManager;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import net.minecraft.commands.CommandBuildContext;

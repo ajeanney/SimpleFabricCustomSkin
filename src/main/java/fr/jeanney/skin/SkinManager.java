@@ -1,7 +1,7 @@
-package com.gmail.anthony17j.simplefabriccustomskin.skin;
+package fr.jeanney.skin;
 
-import com.gmail.anthony17j.simplefabriccustomskin.SimpleFabricCustomSkin;
-import com.gmail.anthony17j.simplefabriccustomskin.mixin.PlayerAccessor;
+import fr.jeanney.SimpleFabricCustomSkin;
+import fr.jeanney.mixin.PlayerAccessor;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import com.google.gson.Gson;
@@ -29,7 +29,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
-import java.net.URI;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.HttpURLConnection;
@@ -37,7 +36,6 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Base64;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
