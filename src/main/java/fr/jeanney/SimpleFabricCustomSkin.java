@@ -1,7 +1,7 @@
-package com.gmail.anthony17j.simplefabriccustomskin;
+package fr.jeanney;
 
-import com.gmail.anthony17j.simplefabriccustomskin.command.SkinCommand;
-import com.gmail.anthony17j.simplefabriccustomskin.skin.SkinManager;
+import fr.jeanney.command.SkinCommand;
+import fr.jeanney.skin.SkinManager;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
